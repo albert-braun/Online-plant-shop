@@ -4,9 +4,7 @@
 
 Minimalist e-commerce mockup for a Berlin plant atelier. Built as a single-page store: catalog, filters, cart, and contact form.
 
-**Live site:** https://cdn.jsdelivr.net/gh/albert-braun/Online-plant-shop@main/docs/index.html
-
-GitHub Pages (after enable): https://albert-braun.github.io/Online-plant-shop/
+**Live site:** https://albert-braun.github.io/Online-plant-shop/
 
 ## About
 
@@ -48,12 +46,7 @@ docs/           Built site for GitHub Pages
 
 ## GitHub Pages
 
-The built site is in `docs/`. Enable it once:
-
-1. Open [Settings → Pages](https://github.com/albert-braun/Online-plant-shop/settings/pages)
-2. **Source:** Deploy from a branch
-3. **Branch:** `main` → `/docs`
-4. Save
+The live site is served from the `docs/` folder on the `main` branch.
 
 ## Contact (demo)
 
