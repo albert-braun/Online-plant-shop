@@ -9,6 +9,8 @@ const uiSlice = createSlice({
     toast: '',
     formSent: false,
     form: { name: '', email: '', message: '' },
+    newsletterEmail: '',
+    newsletterSent: false,
   },
   reducers: {
     openCart(state) {
@@ -41,6 +43,12 @@ const uiSlice = createSlice({
     submitForm(state) {
       state.formSent = true
     },
+    setNewsletterEmail(state, action) {
+      state.newsletterEmail = action.payload
+    },
+    submitNewsletter(state) {
+      state.newsletterSent = true
+    },
   },
 })
 
@@ -54,5 +62,7 @@ export const {
   setToast,
   setFormField,
   submitForm,
+  setNewsletterEmail,
+  submitNewsletter,
 } = uiSlice.actions
 export default uiSlice.reducer

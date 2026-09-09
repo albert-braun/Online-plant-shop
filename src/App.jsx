@@ -5,6 +5,7 @@ import About from './components/About.jsx'
 import Catalog from './components/Catalog.jsx'
 import Care from './components/Care.jsx'
 import Contacts from './components/Contacts.jsx'
+import SiteFooter from './components/SiteFooter.jsx'
 import CartDrawer from './components/CartDrawer.jsx'
 
 export default function App() {
@@ -25,12 +26,7 @@ export default function App() {
       <Catalog />
       <Care />
       <Contacts />
-      <footer className="bg-ink py-7 text-[13px] text-sand">
-        <div className="wrap flex flex-col justify-between gap-4 md:flex-row">
-          <span className="font-display text-[18px] tracking-[0.28em]">FOLIA</span>
-          <p>© {new Date().getFullYear()} Plant atelier. Delivery across the EU.</p>
-        </div>
-      </footer>
+      <SiteFooter />
       <CartDrawer />
       {toast && (
         <div className="fixed bottom-7 left-1/2 z-[60] -translate-x-1/2 bg-ink px-[18px] py-3 text-[13px] tracking-[0.06em] text-cream">

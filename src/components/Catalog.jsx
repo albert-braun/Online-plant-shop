@@ -42,6 +42,7 @@ export default function Catalog() {
           <label className="flex min-h-12 items-center gap-2 border border-ink/12 px-3.5 focus-within:border-wood">
             <SearchIcon />
             <input
+              id="catalog-search"
               className="min-h-[46px] w-full bg-transparent outline-none"
               value={catalog.query}
               onChange={(e) => dispatch(setQuery(e.target.value))}
