@@ -1,12 +1,14 @@
 # FOLIA — online plant shop
 
+Минималистичный интернет-магазин растений. Крупные заголовки, спокойная палитра (чёрный, беж, тёмное дерево), каталог, фильтры, корзина и форма связи.
+
 Minimalist e-commerce mockup for a Berlin plant atelier. Built as a single-page store: catalog, filters, cart, and contact form.
 
 **Live site:** https://albert-braun.github.io/Online-plant-shop/
 
 ## About
 
-FOLIA is a quiet luxury plant shop UI. The palette is black, beige and dark wood. Large serif headlines sit next to cut-out plant photography. The collection has 20 plants in euro prices, with search, light and category filters, and a sliding bag.
+FOLIA is a quiet luxury plant shop UI. Large serif headlines sit next to cut-out plant photography. The collection has 20 plants priced in euros, with search, light and category filters, and a sliding bag.
 
 This is a frontend demo (no backend). Checkout and the contact form stay on the client.
 
@@ -40,6 +42,14 @@ src/
   data/         Product list
 public/images/  Plant photos
 ```
+
+## GitHub Pages
+
+The site deploys from GitHub Actions (`.github/workflows/pages.yml`). Enable Pages once:
+
+1. Open [Settings → Pages](https://github.com/albert-braun/Online-plant-shop/settings/pages)
+2. Set **Source** to **GitHub Actions**
+3. Re-run the **Deploy to GitHub Pages** workflow under [Actions](https://github.com/albert-braun/Online-plant-shop/actions)
 
 ## Contact (demo)
 
