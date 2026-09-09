@@ -1,3 +1,5 @@
+import { img } from '../data/products.js'
+
 export default function Hero() {
   const goCatalog = () =>
     document.querySelector('#catalog')?.scrollIntoView({ behavior: 'smooth' })
@@ -39,17 +41,17 @@ export default function Hero() {
       <div className="relative mt-5 h-[380px] md:mt-0 md:h-[min(70vh,620px)]">
         <img
           className="animate-float absolute top-[-6%] right-[-8%] w-[78%] object-contain drop-shadow-[0_28px_40px_rgba(0,0,0,0.35)]"
-          src="/images/foliage.png"
+          src={img('foliage.png')}
           alt=""
         />
         <img
           className="animate-sway absolute top-[-2%] left-[4%] w-[46%] object-contain drop-shadow-[0_28px_40px_rgba(0,0,0,0.35)]"
-          src="/images/pothos.png"
+          src={img('pothos.png')}
           alt="Hanging pothos"
         />
         <img
           className="animate-float-slow absolute right-[10%] bottom-[-4%] w-[42%] object-contain drop-shadow-[0_28px_40px_rgba(0,0,0,0.35)]"
-          src="/images/bonsai.png"
+          src={img('bonsai.png')}
           alt="Bonsai"
         />
       </div>

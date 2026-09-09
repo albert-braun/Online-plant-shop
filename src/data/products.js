@@ -1,3 +1,5 @@
+export const img = (file) => `${import.meta.env.BASE_URL}images/${file}`
+
 export const products = [
   {
     id: 'pinus',
@@ -6,7 +8,7 @@ export const products = [
     price: 89,
     category: 'bonsai',
     light: 'sun',
-    image: '/images/bonsai.png',
+    image: img('bonsai.png'),
     featured: true,
     desc: 'A sculpted black pine in a glossy stone pot. Trained by hand, quietly architectural.',
   },
@@ -17,7 +19,7 @@ export const products = [
     price: 42,
     category: 'hanging',
     light: 'shade',
-    image: '/images/pothos.png',
+    image: img('pothos.png'),
     featured: true,
     desc: 'Variegated pothos in marble-finish ceramic. A soft cascade for high ceilings.',
   },
@@ -28,7 +30,7 @@ export const products = [
     price: 56,
     category: 'tropical',
     light: 'diffused',
-    image: '/images/foliage.png',
+    image: img('foliage.png'),
     featured: true,
     desc: 'A gathered bouquet of calathea, ficus and fern. Living composition, no flowers.',
   },
@@ -39,7 +41,7 @@ export const products = [
     price: 74,
     category: 'tropical',
     light: 'diffused',
-    image: '/images/monstera.jpg',
+    image: img('monstera.jpg'),
     desc: 'Broad fenestrated leaves. A quiet accent for a living room with height.',
   },
   {
@@ -49,7 +51,7 @@ export const products = [
     price: 68,
     category: 'bonsai',
     light: 'diffused',
-    image: '/images/trailing.jpg',
+    image: img('trailing.jpg'),
     desc: 'A bulbous trunk and glossy canopy. Indoor bonsai with a calm, sculptural stance.',
   },
   {
@@ -59,7 +61,7 @@ export const products = [
     price: 79,
     category: 'large',
     light: 'sun',
-    image: '/images/greenery.jpg',
+    image: img('greenery.jpg'),
     desc: 'Thick, lacquered leaves on a single stem. Architecture for an empty corner.',
   },
   {
@@ -69,7 +71,7 @@ export const products = [
     price: 28,
     category: 'easy',
     light: 'sun',
-    image: '/images/succulent.jpg',
+    image: img('succulent.jpg'),
     desc: 'White banding on dark leaves. Almost no water, almost no attention.',
   },
   {
@@ -79,7 +81,7 @@ export const products = [
     price: 32,
     category: 'easy',
     light: 'sun',
-    image: '/images/olive.jpg',
+    image: img('olive.jpg'),
     desc: 'Upright speckled leaves in a tall grey cylinder. Desk-scale and hardy.',
   },
   {
@@ -89,7 +91,7 @@ export const products = [
     price: 24,
     category: 'easy',
     light: 'sun',
-    image: '/images/cactus.jpg',
+    image: img('cactus.jpg'),
     desc: 'A single green column in terracotta. Slow, vertical, undemanding.',
   },
   {
@@ -99,7 +101,7 @@ export const products = [
     price: 26,
     category: 'easy',
     light: 'sun',
-    image: '/images/palm.jpg',
+    image: img('palm.jpg'),
     desc: 'A round cactus with a magenta crown. Small, graphic, and complete.',
   },
   {
@@ -109,7 +111,7 @@ export const products = [
     price: 39,
     category: 'tropical',
     light: 'diffused',
-    image: '/images/calathea.jpg',
+    image: img('calathea.jpg'),
     desc: 'Wavy leaves with reptile graphics and a purple reverse. Loves humid air.',
   },
   {
@@ -119,7 +121,7 @@ export const products = [
     price: 36,
     category: 'tropical',
     light: 'diffused',
-    image: '/images/alocasia.jpg',
+    image: img('alocasia.jpg'),
     desc: 'Pink veins on a dark leaf. It folds at night and opens with the morning.',
   },
   {
@@ -129,7 +131,7 @@ export const products = [
     price: 45,
     category: 'tropical',
     light: 'shade',
-    image: '/images/lyrata.jpg',
+    image: img('lyrata.jpg'),
     desc: 'White spathes against deep foliage. Calm form for low light rooms.',
   },
   {
@@ -139,7 +141,7 @@ export const products = [
     price: 48,
     category: 'hanging',
     light: 'shade',
-    image: '/images/pilea.jpg',
+    image: img('pilea.jpg'),
     desc: 'Heart leaves with a lime midrib. Trails from a matte white hanging pot.',
   },
   {
@@ -149,7 +151,7 @@ export const products = [
     price: 128,
     category: 'large',
     light: 'diffused',
-    image: '/images/snake.jpg',
+    image: img('snake.jpg'),
     desc: 'A ready grouping of mature plants in stone and ceramic. For a finished room.',
   },
   {
@@ -159,7 +161,7 @@ export const products = [
     price: 54,
     category: 'easy',
     light: 'sun',
-    image: '/images/jade.jpg',
+    image: img('jade.jpg'),
     desc: 'A low field of cacti. Texture for a windowsill that gets real sun.',
   },
   {
@@ -169,7 +171,7 @@ export const products = [
     price: 82,
     category: 'large',
     light: 'diffused',
-    image: '/images/zz.jpg',
+    image: img('zz.jpg'),
     desc: 'A mature split-leaf in concrete and cork. Styled for a pale European interior.',
   },
   {
@@ -179,7 +181,7 @@ export const products = [
     price: 38,
     category: 'easy',
     light: 'sun',
-    image: '/images/fern.jpg',
+    image: img('fern.jpg'),
     desc: 'Jade and cactus in white ceramic and grey concrete. Two small forms, one shelf.',
   },
   {
@@ -189,7 +191,7 @@ export const products = [
     price: 34,
     category: 'easy',
     light: 'sun',
-    image: '/images/leaf.jpg',
+    image: img('leaf.jpg'),
     desc: 'Silver-green discs in a clear carafe. Cut greenery that lasts for weeks.',
   },
   {
@@ -199,7 +201,7 @@ export const products = [
     price: 52,
     category: 'tropical',
     light: 'shade',
-    image: '/images/anthurium.jpg',
+    image: img('anthurium.jpg'),
     desc: 'A dense field of serrated leaves. Mood and texture for a darker wall.',
   },
 ]

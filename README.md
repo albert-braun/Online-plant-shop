@@ -4,7 +4,9 @@
 
 Minimalist e-commerce mockup for a Berlin plant atelier. Built as a single-page store: catalog, filters, cart, and contact form.
 
-**Live site:** https://albert-braun.github.io/Online-plant-shop/
+**Live site:** https://cdn.jsdelivr.net/gh/albert-braun/Online-plant-shop@main/docs/index.html
+
+GitHub Pages (after enable): https://albert-braun.github.io/Online-plant-shop/
 
 ## About
 
@@ -41,15 +43,17 @@ src/
   store/        Redux slices and selectors
   data/         Product list
 public/images/  Plant photos
+docs/           Built site for GitHub Pages
 ```
 
 ## GitHub Pages
 
-The site deploys from GitHub Actions (`.github/workflows/pages.yml`). Enable Pages once:
+The built site is in `docs/`. Enable it once:
 
 1. Open [Settings → Pages](https://github.com/albert-braun/Online-plant-shop/settings/pages)
-2. Set **Source** to **GitHub Actions**
-3. Re-run the **Deploy to GitHub Pages** workflow under [Actions](https://github.com/albert-braun/Online-plant-shop/actions)
+2. **Source:** Deploy from a branch
+3. **Branch:** `main` → `/docs`
+4. Save
 
 ## Contact (demo)
 
